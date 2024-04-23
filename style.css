@@ -44,3 +44,22 @@ body {
     width: 80px;
 }
 
+
+@media (max-width: 768px) {
+    .stopwatch {
+        width: 100%;
+        margin: 100px auto 0;
+    }
+
+    .stopwatch h1 {
+        font-size: 40px;
+    }
+
+    .buttons img {
+        width: 40px;
+    }
+
+    .buttons img:nth-child(2) {
+        width: 60px;
+    }
+}
